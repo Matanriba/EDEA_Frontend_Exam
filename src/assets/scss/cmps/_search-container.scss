@@ -1,12 +1,13 @@
 .search-container {
-    height: 600px;
-    width: 33%;
-    padding: 20px;
-    box-shadow: 3px 4px 17px 3px rgba(0, 0, 0, 0.75);
+  height: 600px;
+  width: 33%;
+  padding: 20px;
+  box-shadow: 3px 4px 17px 3px rgba(64, 71, 90, 0.75);
+  background-color: rgb(255, 250, 243);
 
-    .actions-btns {
-        .right-btns {
-            gap: 20px;
-        }
+  .actions-btns {
+    .right-btns {
+      gap: 20px;
     }
+  }
 }

@@ -1,3 +1,10 @@
 .result-preview {
     animation: fadein 0.3s ease-in-out;
+
+    &.chosen-tile {
+      animation: slide-fade-out-tile 1.5s ease-in-out;
+    }
+    &.chosen-p {
+      animation: slide-fade-out-p 1.5s ease-in-out;
+    }
 }

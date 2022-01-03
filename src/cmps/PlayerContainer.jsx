@@ -10,13 +10,13 @@ export const PlayerContainer = () => {
 
     useEffect(() => {
         setIsPlaying(false)
-    }, [])
+    }, [currChosenTrack])
 
     return (
         <div className="player-container">
-            {currChosenTrack !== null && <img className={`track-image ${(isPlaying) ? "playing" : ""}`} src={currChosenTrack.pic} onClick={() => setIsPlaying(!isPlaying)} />}
-            {isPlaying && <ReactPlayer className="player" 
-            url={currChosenTrack.url} options playing={true} width='100%' height='30%' />}
+            {currChosenTrack  && <img className={`track-image ${(isPlaying) ? "playing" : ""}`} src={currChosenTrack.pic} onClick={() => setIsPlaying(!isPlaying)} />}
+            {(isPlaying && currChosenTrack) && <ReactPlayer className="player" 
+            url={currChosenTrack.url} options='true' playing='true' width='100%' height='30%' />}
         </div>
     )
 }

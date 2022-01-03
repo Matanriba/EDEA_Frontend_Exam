@@ -1,7 +1,16 @@
 .recent-searches {
+  overflow-y: scroll;
+  gap: 80px;
+  height: 600px;
+  width: 33%;
+  padding: 20px;
+  box-shadow: 3px 4px 17px 3px rgba(64, 71, 90, 0.75);
+  background-color: rgb(255, 250, 243);
+  .title {
+    font-size: rem(22px);
+    font-weight: bold;
+  }
+  .recent-list {
     gap: 50px;
-    height: 600px;
-    width: 33%;
-    padding: 20px;
-    box-shadow: 3px 4px 17px 3px rgba(0, 0, 0, 0.75);
+  }
 }

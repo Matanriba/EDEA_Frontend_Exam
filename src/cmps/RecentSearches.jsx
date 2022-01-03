@@ -25,9 +25,11 @@ export const RecentSearches = () => {
 
     return (
         <div className="recent-searches flex column">
-            <h2 className="title">Recent Searches</h2>
-            {!recentSearches && <p className="initial-text">No Recent Searches currently</p>}
-            {recentSearches && recentSearches.map(search => <p className="recent-list" key={search.id} onClick={() => onSetSearchTerm(search.txt)}>{search.txt}</p>)}
+            <h1 className="title">Recent Searches</h1>
+            {!recentSearches && <p className="initial-text">No recent searches currently...</p>}
+            {recentSearches && <div className="recent-list flex column">
+                {recentSearches.map(search => <p className="recent-search" key={search.id} onClick={() => onSetSearchTerm(search.txt)}>{search.txt}</p>)}
+                               </div>}
         </div>
     )
 }
