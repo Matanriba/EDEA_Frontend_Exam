@@ -19,6 +19,7 @@ React using hooks is much simpler to write and much more readable - no classes u
 
 Notes:
 1. Player does not autoplay - after endless reading I found that most players are blocked by modern browsers from auto-playing music/videos.
+2. Errors in browser console are a part of this - I tried multiple players and they all gave me errors while working with the Mixcloud API - this does not interfere with playback or any other functionality whatsoever. All requirements work perfectly.
 
 How to run:
 
