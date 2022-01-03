@@ -1,0 +1,25 @@
+.player-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  height: 600px;
+  width: 33%;
+  padding: 20px 50px;
+  box-shadow: 3px 4px 17px 3px rgba(0, 0, 0, 0.75);
+
+  .track-image {
+    margin: auto 0;
+    cursor: pointer;
+    border-radius: 5px;
+    
+    &.playing {
+      animation: slide-fade-out 1s ease-in-out;
+    }
+  }
+
+  .player {
+    margin-bottom: 0;
+    animation: fadein 1.5s ease-in-out;
+  }
+}

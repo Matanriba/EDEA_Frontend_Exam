@@ -23,8 +23,8 @@ async function search(keyword) {
     return Promise.resolve(editedResults)
 }
 
-async function getById(id) {
-    const searchResults = storageService.load('SEARCH_RESULTS')
+async function getById(id, storageKey) {
+    const searchResults = storageService.load(storageKey)
     const track = searchResults.find(result => result.id === id)
     if (!track) return Promise.reject()
     return Promise.resolve({ ...track })
@@ -32,9 +32,11 @@ async function getById(id) {
 
 function _addRecentSearch(keyword) {
     const recentSearches = storageService.load('RECENT_SEARCHES') || []
-
-    const searchToStore = { id: makeId(), txt: keyword }
+    const duplicateIdx = recentSearches.findIndex(search => search.txt === keyword)
+    if (duplicateIdx !== -1) return
     
+    const searchToStore = { id: makeId(), txt: keyword }
+
     if (recentSearches.length < 5) recentSearches.unshift(searchToStore)
     else {
         recentSearches.splice(4, 1)

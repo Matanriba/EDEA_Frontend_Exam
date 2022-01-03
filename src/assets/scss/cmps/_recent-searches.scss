@@ -1,12 +1,7 @@
-.search-container {
+.recent-searches {
+    gap: 50px;
     height: 600px;
     width: 33%;
     padding: 20px;
     box-shadow: 3px 4px 17px 3px rgba(0, 0, 0, 0.75);
-
-    .actions-btns {
-        .right-btns {
-            gap: 20px;
-        }
-    }
 }

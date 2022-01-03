@@ -1,6 +1,13 @@
+// Setup
+@import "setup/functions";
+@import "setup/variables";
 
-//Pages
+// Basics
+@import "basics/base";
+@import "basics/helpers";
+@import "basics/animations";
 
+// Pages
 @import "pages/app";
 
 // Components
@@ -8,3 +15,5 @@
 @import "cmps/search-bar";
 @import "cmps/search-results-list";
 @import "cmps/search-result-preview";
+@import "cmps/player-container";
+@import "cmps/recent-searches";

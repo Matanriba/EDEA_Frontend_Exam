@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import {BiSearchAlt} from 'react-icons/bi'
 
 export const SearchBar = ({ onChangeSearchTerm }) => {
 
@@ -13,9 +14,9 @@ export const SearchBar = ({ onChangeSearchTerm }) => {
     const { searchTxt } = searchTerm
     return (
         <>
-            <form className='search-form' onSubmit={(ev) => onChangeSearchTerm(ev, searchTxt)}>
-                <input type="text" value={searchTxt} name='searchTxt' onChange={handleChange} />
-                <button>🏁</button>
+            <form className='search-form flex' onSubmit={(ev) => onChangeSearchTerm(ev, searchTxt)}>
+                <input type="text" value={searchTxt} name='searchTxt' onChange={handleChange} placeholder='Search Mixcloud...' autoFocus/>
+                <button className='simple-button'><BiSearchAlt /></button>
             </form>
         </>
     )

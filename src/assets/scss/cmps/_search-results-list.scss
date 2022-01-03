@@ -1,0 +1,11 @@
+.search-result-list {
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    >img {
+        width: 120px;
+        margin: 5px;
+        cursor: pointer;
+    }
+}
