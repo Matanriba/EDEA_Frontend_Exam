@@ -17,6 +17,9 @@ Work with redux in order to make component interaction smooth.
 What I learned:
 React using hooks is much simpler to write and much more readable - no classes used here!
 
+Notes:
+1. Player does not autoplay - after endless reading I found that most players are blocked by modern browsers from auto-playing music/videos.
+
 How to run:
 
 1. npm i
