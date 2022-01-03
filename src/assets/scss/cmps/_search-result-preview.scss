@@ -1,10 +1,26 @@
 .result-preview {
-    animation: fadein 0.3s ease-in-out;
+  animation: fadein 0.3s ease-in-out;
+  
+  &.txt {
+    font-size: rem(17px);
+    background-color: rgb(238, 238, 238);
+    min-height: 50px;
+    max-width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 5px;
+  }
 
-    &.chosen-tile {
-      animation: slide-fade-out-tile 1.5s ease-in-out;
-    }
-    &.chosen-p {
-      animation: slide-fade-out-p 1.5s ease-in-out;
-    }
+  &:hover {
+    background-color: rgb(159, 175, 207);
+    cursor: pointer;
+  }
+
+  &.chosen-tile {
+    animation: slide-fade-out-tile 1.5s ease-in-out;
+  }
+  &.chosen-p {
+    font-weight: bold;
+    animation: slide-fade-out-p 1.5s ease-in-out;
+  }
 }

@@ -4,20 +4,22 @@
   justify-content: space-between;
   gap: 30px;
   height: 600px;
+  border-radius: 10px;
   width: 33%;
   padding: 20px 50px;
   box-shadow: 3px 4px 17px 3px rgba(64, 71, 90, 0.75);
-  background-color: rgb(255, 250, 243);
+  background-color: rgb(200, 215, 235);
+
+  .instructions {
+    margin: auto;
+    line-height: rem(30px);
+  }
 
   .track-image {
     margin: auto 0;
     cursor: pointer;
     border-radius: 5px;
     animation: fadein 2s ease-in-out;
-    
-    &.playing {
-      animation: fadein 2s ease-in-out;
-    }
   }
 
   .player {

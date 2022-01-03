@@ -14,9 +14,15 @@ export const PlayerContainer = () => {
 
     return (
         <div className="player-container">
-            {currChosenTrack  && <img className={`track-image ${(isPlaying) ? "playing" : ""}`} src={currChosenTrack.pic} onClick={() => setIsPlaying(!isPlaying)} />}
+            {!currChosenTrack && <div className="instructions">
+                <p>1. Search anything and pick a track</p>
+                <p>2. Click on the central image</p>
+                <p>3. Hit "Play" button on player</p>
+                <p>4. Have fun! 😎</p>
+            </div> }
+            {currChosenTrack  && <img className={`track-image ${(isPlaying) ? "playing" : ""}`} src={currChosenTrack.pic} alt="Track" onClick={() => setIsPlaying(!isPlaying)} />}
             {(isPlaying && currChosenTrack) && <ReactPlayer className="player" 
-            url={currChosenTrack.url} options='true' playing='true' width='100%' height='30%' />}
+            url={currChosenTrack.url} width='100%' height='30%' />}
         </div>
     )
 }

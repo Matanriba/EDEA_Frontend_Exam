@@ -1,16 +1,24 @@
 .recent-searches {
-  overflow-y: scroll;
-  gap: 80px;
+  gap: 40px;
   height: 600px;
+  border-radius: 10px;
   width: 33%;
   padding: 20px;
-  box-shadow: 3px 4px 17px 3px rgba(64, 71, 90, 0.75);
-  background-color: rgb(255, 250, 243);
+  box-shadow: 3px 4px 17px 3px rgba(43, 47, 58, 0.75);
+  background-color: rgb(200, 215, 235);
+
+
   .title {
     font-size: rem(22px);
     font-weight: bold;
   }
   .recent-list {
     gap: 50px;
+    .recent-search {
+      &:hover {
+        cursor: pointer;
+        color: black;
+      }
+    }
   }
 }
