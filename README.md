@@ -4,10 +4,10 @@ Search anything on Mixcloud using their API and listen!
 The design is basic and easy to use - intuitive and simple.
 
 Technologies used:
-React - hooks
-Redux
-Various libraries for icons and the media player
-SCSS
+1. React - hooks
+2. Redux
+3. Various libraries for icons and the media player
+4. SCSS
 
 What I tried to do:
 Write organized and neat code,
