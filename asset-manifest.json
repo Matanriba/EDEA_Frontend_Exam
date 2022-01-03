@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/EDEA_Frontend_Exam/static/css/main.e91bbcc6.css",
+    "main.js": "/EDEA_Frontend_Exam/static/js/main.ee034cfd.js",
+    "static/media/music_notes_background.jpg": "/EDEA_Frontend_Exam/static/media/music_notes_background.c770bbe5ff6510accebb.jpg",
+    "static/media/Courgette-Regular.ttf": "/EDEA_Frontend_Exam/static/media/Courgette-Regular.af9c15cb720a8108634f.ttf",
+    "index.html": "/EDEA_Frontend_Exam/index.html",
+    "main.e91bbcc6.css.map": "/EDEA_Frontend_Exam/static/css/main.e91bbcc6.css.map",
+    "main.ee034cfd.js.map": "/EDEA_Frontend_Exam/static/js/main.ee034cfd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e91bbcc6.css",
+    "static/js/main.ee034cfd.js"
+  ]
+}
