@@ -1,4 +1,4 @@
-import { mixcloudService } from '../../services/mixcloud-service'
+import { mixcloudService } from '../../services/mixcloudService'
 import { storageService } from '../../services/storageService'
 
 export function loadSearchResults(keyword, firstIdx) {

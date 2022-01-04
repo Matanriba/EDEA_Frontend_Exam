@@ -2,7 +2,6 @@ const INITIAL_STATE = {
     currSearchRes: [],
     currSearchTerm: '',
     currChosenTrack: null,
-    // recentSearches: storageService.load('RECENT_SEARCHES') || []
 }
 
 export function searchReducer(state = INITIAL_STATE, action) {
@@ -19,10 +18,6 @@ export function searchReducer(state = INITIAL_STATE, action) {
             return {
                 ...state, currChosenTrack: action.currChosenTrack
             }
-        // case 'SET_RECENT_SEARCHES':
-        //     return {
-        //         ...state, recentSearches: storageService.load('RECENT_SEARCHES')
-        //     }
         default: return state
     }
 }
