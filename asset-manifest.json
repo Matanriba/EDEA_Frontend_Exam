@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Mixcloud-Player/static/css/main.b98a9b89.css",
+    "main.css": "/Mixcloud-Player/static/css/main.cb65c354.css",
     "main.js": "/Mixcloud-Player/static/js/main.ee034cfd.js",
     "static/media/music_notes_background.jpg": "/Mixcloud-Player/static/media/music_notes_background.c770bbe5ff6510accebb.jpg",
     "static/media/Courgette-Regular.ttf": "/Mixcloud-Player/static/media/Courgette-Regular.af9c15cb720a8108634f.ttf",
     "index.html": "/Mixcloud-Player/index.html",
-    "main.b98a9b89.css.map": "/Mixcloud-Player/static/css/main.b98a9b89.css.map",
+    "main.cb65c354.css.map": "/Mixcloud-Player/static/css/main.cb65c354.css.map",
     "main.ee034cfd.js.map": "/Mixcloud-Player/static/js/main.ee034cfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.b98a9b89.css",
+    "static/css/main.cb65c354.css",
     "static/js/main.ee034cfd.js"
   ]
 }
