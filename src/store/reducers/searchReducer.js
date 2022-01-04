@@ -1,5 +1,3 @@
-import { storageService } from "../../services/storageService"
-
 const INITIAL_STATE = {
     currSearchRes: [],
     currSearchTerm: '',

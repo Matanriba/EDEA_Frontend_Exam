@@ -1,6 +1,6 @@
 {
   "homepage": "http://matanriba.github.io/Mixcloud-Player",
-  "name": "mixcloud-search",
+  "name": "mixcloud-player",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
