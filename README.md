@@ -1,5 +1,3 @@
-Edea Frontend Exam - Mixcloud API search app
-
 Search anything on Mixcloud using their API and listen!
 The design is basic and easy to use - intuitive and simple.
 This app should basically work with any music library API - as the embedded player fits any API URL. 
